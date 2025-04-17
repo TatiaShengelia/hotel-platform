@@ -1,0 +1,140 @@
+.error-message {
+    font-size: 40px;
+    color: maroon;
+}
+
+.open-images {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.open-image {
+    margin-left: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px lightblue;
+}
+
+.open-no-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.open-no-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.open-no-img h2 {
+    font-size: 24px;
+    margin: 0 0 8px 0;
+}
+
+.open-name {
+    color: #003580;
+}
+
+.open-nameF {
+    color: #3c4347;
+}
+
+.open-available {
+    display: none;
+}
+
+.open-unavailable {
+    color: red;
+    margin: 5px;
+}
+
+.open-no-img p, h4, a, ul {
+    color: #0071c2;
+}
+
+.open-part1 {
+    display: flex;
+    flex-direction: column;
+    line-height: 15px;
+    width: 460px;
+}
+
+.open-part2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.open-description {
+    font-size: 14px;
+    margin: 8px 0;
+}
+
+.open-room-link {
+    text-decoration: none;
+}
+
+.open-rating-section {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+}
+
+.open-rating {
+    background-color: #003580;
+    color: #fff;
+    font-size: 20px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-left: 8px;
+}
+
+.open-rate {
+    display: flex;
+    flex-direction: column;
+}
+
+.open-rating-text {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-left: 4px;
+}
+
+.open-reviews {
+    font-size: 14px;
+    color: #670;
+    margin-left: 4px;
+}
+
+.open-book {
+    background-color: #0071c2;
+    color: #fff;
+    border: none;
+    width: 100px;
+    padding: 8px 16px;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+.open-book:hover {
+    background-color: #005a9c;
+}
+
+.open-bookF {
+    background-color: #5e6d78;
+    color: #fff;
+    border: none;
+    width: 100px;
+    padding: 8px 16px;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+.open-bookF:hover {
+    background-color: #3c4347;
+}

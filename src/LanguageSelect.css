@@ -1,0 +1,28 @@
+#language-select {
+    width: 100px;
+    height: 30px;
+    border-radius: 13px;
+    border: none;
+    background-color: #003580;
+    color: white;
+    font-size: 15px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 25px 20px;
+    padding-left: 30px;
+}
+
+#language-select::-ms-expand {
+    display: none;
+}
+/* 
+#eng {
+    background: url('./images/uk.jpg') no-repeat left center;
+}
+
+#geo {
+    background: url('./images/georgia.png') no-repeat left center;
+} */

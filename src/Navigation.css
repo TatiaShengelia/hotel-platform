@@ -1,0 +1,41 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: large;
+    background-color: #003580;
+    height: 50px;
+}
+
+.inactive {
+    text-decoration: none;
+    color: white;
+    height: 30px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.active {
+    text-decoration: none;
+    color: white;
+    background-color: #296ac5;
+    height: 30px;
+    width: 90px;
+    border-radius: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inactive:visited {
+    height: 30px;
+    width: 90px;
+    text-decoration: none;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

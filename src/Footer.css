@@ -1,0 +1,55 @@
+.footer {
+    background-color: #003580;
+    color: white;
+    height: 200px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.about-us {
+    width: 250px;
+}
+
+.about-us h3 {
+    margin: 3px;
+    margin-left: 12px;
+}
+
+.footer-p {
+    line-height: 18px;
+    color: white;
+}
+
+.signup-register {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-button {
+    background-color: white;
+    color: #003399;
+    border: 2px solid #003399;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.sign-button:hover {
+    background-color: #003399;
+    color: white;
+}
+
+.links-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links-2 {
+    display: flex;
+    justify-content: space-evenly;
+}

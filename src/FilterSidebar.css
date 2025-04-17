@@ -1,0 +1,40 @@
+.filter-sidebar {
+    width: 250px;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+    line-height: 30px;
+}
+
+.filter-sidebar h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.filter-sidebar label {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#minPrice {
+    margin-left: 20px;
+    width: 50px;
+}
+
+#maxPrice {
+    margin-left: 20px;
+    width: 50px;
+}
+
+/* .enter {
+    margin-top: 10px;
+    background-color: #0071c2;
+    color: #fff;
+    border: none;
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    align-self: flex-end;
+} */

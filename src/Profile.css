@@ -1,0 +1,23 @@
+.profile {
+    height: 550px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgba(163, 149, 149, 0.2);
+    border-radius: 5px;
+    margin: auto;
+}
+
+.profile img {
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px lightblue;
+}
+
+.profile a {
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+    margin: 18px;
+}

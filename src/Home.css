@@ -1,0 +1,24 @@
+.main {
+    display: flex;
+}
+
+.rooms {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.sort-search {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#sortSelect {
+    width: 200px;
+    height: 40px;
+    border-radius: 13px;
+    border: none;
+    background-color: #003580;
+    color: white;
+    font-size: 15px;
+}
